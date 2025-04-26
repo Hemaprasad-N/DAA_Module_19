@@ -4,7 +4,7 @@
 To write a program to create a recursive function to reverse a string.
 
 ## Algorithm
-1. Define a recursive function revstr that takes a string as input.
+1.Define a recursive function revstr that takes a string as input.
 
 2.Check if the length of the string is zero (base case).
 
