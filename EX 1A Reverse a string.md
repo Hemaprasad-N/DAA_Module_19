@@ -5,10 +5,15 @@ To write a program to create a recursive function to reverse a string.
 
 ## Algorithm
 1. Define a recursive function revstr that takes a string as input.
+
 2.Check if the length of the string is zero (base case).
+
 3.If true, return the string.
+
 4.Otherwise, call revstr on the substring excluding the first character and concatenate the first character at the end.
+
 5.Take input from the user and call the recursive function.
+
 6.Print the result 
  
 
