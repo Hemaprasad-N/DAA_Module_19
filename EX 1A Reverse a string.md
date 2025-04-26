@@ -22,16 +22,15 @@ To write a program to create a recursive function to reverse a string.
 /*
 Program to implement Reverse a String
 Developed by: HEMAPRASAD N
-Register Number:  212222040054
+Register Number: 212222040054
 */
-
-def fac(n):
-    if n==1:
-        return n
-    else :
-        return n* fac(n-1)
-n=int(input())
-print(f"Factorial of number {n} =",fac(n))
+def rev(a):
+    if len(a)==0:
+        return a
+    return rev(a[1:]) + a[0]
+    
+a=input()
+print(rev(a))
 ```
 
 ## Output:
